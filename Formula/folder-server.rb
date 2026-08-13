@@ -6,6 +6,13 @@ class FolderServer < Formula
   license "MIT"
   head "https://github.com/drewaltukhov/folder-server.git", branch: "main"
 
+  # Track the upstream GitHub release, so `brew bump` opens a PR here on its
+  # own instead of relying on a guessed strategy.
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   depends_on "caddy"
   depends_on "dnsmasq"
   depends_on "fzf"
