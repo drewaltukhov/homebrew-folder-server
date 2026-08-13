@@ -17,7 +17,7 @@ for macOS. No Electron, no Intel binaries.
 
 - 🌐 **Pretty local domains** — every folder gets `https://<name>.test` (dnsmasq + Caddy)
 - 🔒 **Trusted HTTPS** — real browser-trusted certs per site (mkcert), no warnings
-- 🐘 **Per-folder PHP** — pick `8.3` / `8.4` / `8.5` per project
+- 🐘 **Per-folder PHP** — pick any installed version per project, or default to your newest
 - 📄 **Static and Node projects too** — plain folders, or a Vite/Astro/Next dev server
 - 🗄️ **MySQL on demand** — opt in per project; database and user auto-provisioned
 - 🖥️ **Live dashboard** — start/stop, edit config, view logs from `fs dash`
