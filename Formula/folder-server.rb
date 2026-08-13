@@ -2,7 +2,7 @@ class FolderServer < Formula
   desc "Serve any folder at a local .test domain over HTTPS"
   homepage "https://github.com/drewaltukhov/folder-server"
   url "https://github.com/drewaltukhov/folder-server/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "c094410ea321fad1da418faea25d56c12eda4d0cac35269b23fb85415f888647"
+  sha256 "e73f109510a27cbefa84ab15c4205a5b1219156fc985877292e5091a76a6b4e0"
   license "MIT"
   head "https://github.com/drewaltukhov/folder-server.git", branch: "main"
 
